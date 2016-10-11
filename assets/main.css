@@ -1,0 +1,131 @@
+#personal{
+	background:transparent;
+	border-radius:60px;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+.sidebar{
+	background:black;
+}
+
+/*#header-div {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: white no-repeat center;
+    position: relative;
+}*/
+
+.titel-text {
+    color: #E2E2E2;
+    font-size: 4em;
+    text-align: center;
+    display:block;
+    width: 100%;
+    padding-top: 100px;
+}
+
+#content-div-main-top {
+    background: #E2E2E2;
+}
+
+#content-div-main-middle {
+	background:url('../irwin_pics/footer.jpg')
+}
+
+
+body {
+  padding: 2px 0 0 2px;
+}
+
+.gallery img {
+  float: left;
+  padding: 0 2px 2px 0;
+  /* Yes, you *can* adjust/remove padding. */
+}
+
+iframe{
+    border-radius:5px;
+}
+
+.cards{
+    padding:20px;
+}
+
+#m-videos{
+    font-size:20px;
+}
+
+#s-films{
+    font-size:20px;
+}
+
+.wrt-acc{
+    font-size:20px;
+}
+
+#main-img{
+    border-radius:20px;
+}
+
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   padding-top:20px;
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+}
+
+html{
+   background-image:url('../irwin_pics/img20.jpg');
+ }
+  
+
+
+
